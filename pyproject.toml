@@ -7,7 +7,9 @@ authors = [
     { name = "JINIRON-9210", email = "9210iron@gmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "load-dotenv>=0.1.0",
+]
 
 [project.scripts]
 jump-to-fastapi = "jump_to_fastapi:main"
